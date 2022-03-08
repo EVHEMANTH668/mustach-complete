@@ -1,0 +1,24 @@
+body {
+    background-image: url("background.jpg");
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-succes:hover{
+    background-color: red;
+}
+
+canvas {
+    background-color: red;
+    animation: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+}
+
+@keyframes example {
+    from {box-shadow: 5px 5px 50px yellow;}
+    to {box-shadow: 5px 5px 50px red;}
+}
